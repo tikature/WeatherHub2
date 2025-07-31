@@ -9,7 +9,7 @@
 - HTML & CSS – Untuk struktur dan gaya tampilan
 
 ## 📸 Cuplikan Tampilan (Screenshots)
-### 🌤️ Prakiraan Cuaca Harian
+### 🌤️ Prakiraan Cuaca Harian Otomatis Sesuai Lokasi Anda
 <p align="center">
   <img src="vue-weather/src/assets/image1.png" width="300"/>
   <img src="vue-weather/src/assets/image2.png" width="300"/>
@@ -17,7 +17,7 @@
 </p>
 
 ---
-### 🔍 Pencarian Cuaca
+### 🔍 Pencarian Cuaca 
 <p align="center">
   <img src="vue-weather/src/assets/image4.png" width="300"/>
   <img src="vue-weather/src/assets/image5.png" width="300"/>
