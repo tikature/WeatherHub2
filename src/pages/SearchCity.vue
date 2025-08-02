@@ -200,7 +200,7 @@ export default {
       tempUnit: 'C',
       uvIndex: 0,
       popularCities: ['Jakarta', 'Surabaya', 'Medan', 'Bandung', 'Makassar'],
-      apiKey: '' 
+      apiKey: '1e8cf00f9f4f4809b0e155132252007' 
     }
   },
   methods: {

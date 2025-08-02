@@ -416,7 +416,7 @@ export default {
 
     async fetchWeatherData() {
       try {
-        const API_KEY = '';
+        const API_KEY = '1e8cf00f9f4f4809b0e155132252007';
         const response = await fetch(
           `https://api.weatherapi.com/v1/forecast.json?key=${API_KEY}&q=${this.latitude},${this.longitude}&days=7&aqi=yes&alerts=yes&lang=id`,
           {
@@ -449,7 +449,7 @@ export default {
 
     async getCityFromLocationIQ(lat, lon) {
       try {
-        const response = await fetch(`https://us1.locationiq.com/v1/reverse?key=''&lat=${lat}&lon=${lon}&format=json`);
+        const response = await fetch(`https://us1.locationiq.com/v1/reverse?key=pk.c0971c1531185a4e2d2153411e589136&lat=${lat}&lon=${lon}&format=json`);
         if (!response.ok) throw new Error("Gagal memuat data lokasi");
         
         const data = await response.json();

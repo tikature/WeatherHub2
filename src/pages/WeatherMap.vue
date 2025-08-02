@@ -532,7 +532,7 @@ export default {
     },
 
     async fetchWeather(lat, lon) {
-      const apiKey = ''
+      const apiKey = '1e8cf00f9f4f4809b0e155132252007'
       const url = `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${lat},${lon}&aqi=no`
 
       try {
