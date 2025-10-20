@@ -52,7 +52,7 @@
 
     <!-- Main Content -->
     <main class="main-content">
-      <div class="container-fluid">
+      <div class="container">
         <router-view />
       </div>
     </main>
