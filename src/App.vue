@@ -320,7 +320,7 @@ export default {
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0;
+  padding: 2rem 1rem;
   min-height: 60vh;
 }
 
@@ -683,7 +683,7 @@ export default {
   }
   
   .container {
-    padding: 0;
+    padding: 1.5rem 1rem;
   }
   
   .floating-element {
