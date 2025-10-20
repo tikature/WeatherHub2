@@ -320,9 +320,10 @@ export default {
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 2rem 1rem;
+  padding: 0;
   min-height: 60vh;
 }
+
 
 /* Footer Styles */
 .app-footer {
@@ -682,7 +683,7 @@ export default {
   }
   
   .container {
-    padding: 1.5rem 1rem;
+    padding: 0;
   }
   
   .floating-element {
